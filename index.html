@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title> Birthday-Date</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <div class="container-fluid">
+     <div class="jumbotron">
     <h1>Web Application</h1>
     <p>This is my web application that simply takes a user's birthday and
       calculates the day of the week they were born and then
@@ -13,35 +17,94 @@
        children are given their first name as a 'day name' which
        corresponds to the day in the week they were born. Here are
        Ghanian day names.)
-     </p>
-     <un>
-       <p>Male</p>
-       <ul>
-        <li> Sunday: Kwasi</li>
-         <li>Monday: Kwadwo</li>
-         <li>Tuesday: Kwabena</li>
-         <li>Wednesday: Kwaku</li>
-         <li>Thursday:  Yaw</li>
-         <li>Friday: Kofi</li>
-         <li>Saturday: Kwame</li>
-       </ul>
-       <p>Female</p>
-       <ul>
-         <li> Sunday: Akosua</li>
-          <li>Monday: Adwoa</li>
-          <li>Tuesday: Abenaa</li>
-          <li>Wednesday: Akua</li>
-          <li>Thursday:  Yaa</li>
-          <li>Friday: Afua</li>
-          <li>Saturday: Ama</li>
-       </ul>
-       <h2>Must read this details before entering your Birthday Date</h2>
+     </div>
+     <!-- <h2>Akan Names</h2>
+     <div class="row">
+      <div class="col-md-4">
+        <h2>Days</h2>
+        <p>Sunday</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Male</h2>
+        <p>Kwasi</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Female</h2>
+        <p>Akosua</p>
+      </div>
+    </div>
+    <div class="row">
+     <div class="col-md-4">
+       <p>Monday</p>
+     </div>
+     <div class="col-md-4">
+       <p>Kwadwo</p>
+     </div>
+     <div class="col-md-4">
+       <p>Adwoa</p>
+     </div>
+   </div>
+   <div class="row">
+    <div class="col-md-4">
+      <p>Tuesday</p>
+    </div>
+    <div class="col-md-4">
+      <p>Kwabena</p>
+    </div>
+    <div class="col-md-4">
+      <p>Abenaa</p>
+    </div>
+  </div>
+  <div class="row">
+   <div class="col-md-4">
+     <p>Wensday</p>
+   </div>
+   <div class="col-md-4">
+     <p>Kwaku</p>
+   </div>
+   <div class="col-md-4">
+     <p>Akua</p>
+   </div>
+ </div>
+ <div class="row">
+  <div class="col-md-4">
+    <p>Thursday</p>
+  </div>
+  <div class="col-md-4">
+    <p>Yaw</p>
+  </div>
+  <div class="col-md-4">
+    <p>Yaa</p>
+  </div>
+</div>
+<div class="row">
+ <div class="col-md-4">
+   <p>Friday</p>
+ </div>
+ <div class="col-md-4">
+   <p>Kofi</p>
+ </div>
+ <div class="col-md-4">
+   <p>Afua</p>
+ </div>
+</div>
+<div class="row">
+ <div class="col-md-4">
+   <p>Saturday</p>
+ </div>
+ <div class="col-md-4">
+   <p>Kwame</p>
+ </div>
+ <div class="col-md-4">
+   <p>Ama</p>
+ </div>
+</div> -->
+<h2>Must read this details before entering your Birthday Date</h2>
        <p>  CC - is the century digits. For example 1989 has CC = 19
             YY - is the Year digits (1989 has YY = 89
             MM -  is the Month
             DD - is the Day of the month </p>
             <script src="scripts.js"></script>
-
   <form>
     <label>Enter century digits </label>
     <input type="text" name="Century" placeholder="e.g 19.."><br>
@@ -55,8 +118,6 @@
     Male<input type="radio" class="gender" value="male">
     <input type="submit" value="Submit">
   </form>
-
-
+  </div>
   </body>
 </html>
-/

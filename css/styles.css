@@ -1,0 +1,29 @@
+/* body{
+  background-color: #e6e6ff;
+  margin: 0;
+  padding: 0;
+}
+image{
+  height: 620px;
+  padding-right:70px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color:white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered p{
+  margin: 0;
+  text-align: center;
+  color:white;
+}
+#names{
+  text-align: center;
+} */
