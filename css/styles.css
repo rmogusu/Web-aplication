@@ -1,25 +1,25 @@
-/* body{
-  background-color: #e6e6ff;
+body{
+  background-color: gray;
   margin: 0;
   padding: 0;
 }
-image{
+/* image{
   height: 620px;
   padding-right:70px;
-}
+} */
 
 h1 {
   margin: 0;
   text-align: center;
   color:white;
 }
-.centered {
+/* .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
-.centered p{
+/* .centered p{
   margin: 0;
   text-align: center;
   color:white;
