@@ -1,20 +1,20 @@
 var maleNames=[
- 'Kwasi',
- 'Kwadwo',
- 'Kwabena',
- 'Kwaku',
- 'Yaw',
- 'Kofi',
- 'Kwame',
+ "Kwasi"
+ "Kwadwo",
+ "Kwabena",
+ "Kwaku",
+ "Yaw",
+ "Kofi",
+ "Kwame",
 ]
 var femaleNames=[
- 'Akosua',
- 'Adwoa',
- 'Abenaa',
- 'Akua',
- 'Yaa',
- 'Afua',
- 'Ama',
+ "Akosua",
+ "Adwoa",
+ "Abenaa",
+ "Akua",
+ "Yaa",
+ "Afua",
+ "Ama",
 ]
 
 function dayOfTheWeek(dd,mm,cc,yy) {
@@ -23,7 +23,7 @@ function dayOfTheWeek(dd,mm,cc,yy) {
 
 function calculateBirthday() {
  var valid=true;
- var form = document.forms["Form"];
+ var form = document.forms["myForm"];
  var dd = form["date"].value;
  var mm = form["month"].value;
  var cc = form["century"].value;
