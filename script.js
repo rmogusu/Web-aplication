@@ -1,21 +1,6 @@
-var maleNames=[
- "Kwasi"
- "Kwadwo",
- "Kwabena",
- "Kwaku",
- "Yaw",
- "Kofi",
- "Kwame",
-]
-var femaleNames=[
- "Akosua",
- "Adwoa",
- "Abenaa",
- "Akua",
- "Yaa",
- "Afua",
- "Ama",
-]
+var maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+var femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama",]
+
 
 function dayOfTheWeek(dd,mm,cc,yy) {
  return (((cc/4)-2*cc-1)+(5*yy/4)+(26*(mm+1)/10)+dd)%7;

@@ -104,21 +104,20 @@
             YY - is the Year digits (1989 has YY = 89
             MM -  is the Month
             DD - is the Day of the month</em> </p>
-    <form name="script.js" onsubmit="event.preventDefault();calculateBirthday()">
+    <form name="myForm" onsubmit="event.preventDefault();calculateBirthday()">
     <label>Enter century digits </label>
-    <input type="text" name="Century" placeholder="e.g 19..">
+    <input type="number" name="century" placeholder="e.g 19..">
     <label>Enter year of Birth</label>
-    <input type="text" name="Year" placeholder="e.g ..89">
+    <input type="number" name="year" placeholder="e.g ..89">
     <label>Enter Month of Birth</label>
-    <input type="text" name="Month" placeholder="e.g 1-12"><br>
+    <input type="number" name="month" placeholder="e.g 1-12"><br>
     <label>Enter Day of Birth</label>
-    <input type="text" name="Date" placeholder="e.g 1-31">
-    Female<input type="radio" class="gender" value="female">
-    Male<input type="radio" class="gender" value="male">
-    <input type="submit" value="Submit">
+    <input type="number" name="date" placeholder="e.g 1-31">
+    Female<input  name="gender"type="radio" class="gender" value="female">
+    Male<input  name="gender" type="radio" class="gender" value="male">
+    <input type="submit" value="submit">
   </form>
   </div>
-
-  <script src="scripts.js"></script>
+  <script src="script.js"></script>
   </body>
 </html>
