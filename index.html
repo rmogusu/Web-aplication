@@ -6,8 +6,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
+  <div class="container-fluid">
   <body>
-    <div class="container-fluid">
     <div class="jumbotron">
       <h1>Web Application</h1>
     <div class ="description">
@@ -104,7 +104,7 @@
             YY - is the Year digits (1989 has YY = 89
             MM -  is the Month
             DD - is the Day of the month</em> </p>
-    <form name="myForm" onsubmit="event.preventDefault();calculateBirthday()">
+    <form name="myForm" onsubmit="return calculateBirthday()" method="POST" action"">
     <label>Enter century digits </label>
     <input type="number" name="century" placeholder="e.g 19..">
     <label>Enter year of Birth</label>
@@ -115,7 +115,7 @@
     <input type="number" name="date" placeholder="e.g 1-31">
     Female<input  name="gender"type="radio" class="gender" value="female">
     Male<input  name="gender" type="radio" class="gender" value="male">
-    <input type="submit" value="submit">
+    <button type="submit" value="submit">SUBMIT</button>
   </form>
   </div>
       <script src="script.js"></script>
