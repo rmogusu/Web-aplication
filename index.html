@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <title> Birthday-Date</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container-fluid">
-     <div class="jumbotron">
-    <h1>Web Application</h1>
+    <div class="jumbotron">
+      <h1>Web Application</h1>
     <div class ="description">
     <p>This is my web application that simply takes a user's birthday and
       calculates the day of the week they were born and then
@@ -19,9 +19,9 @@
        corresponds to the day in the week they were born. Here are
        Ghanian day names.)</div>
      </div>
-     <h2>Akan Names</h2>
-     <div class="row">
-      <div class="col-md-4">
+    <h2>Akan Names</h2>
+    <div class="row">
+    <div class="col-md-4">
         <h3><strong>Days</strong></h3>
         <p>Sunday</p>
       </div>
@@ -55,55 +55,56 @@
     <div class="col-md-4">
       <p>Abenaa</p>
     </div>
-  </div>
-  <div class="row">
-   <div class="col-md-4">
+    </div>
+    <div class="row">
+    <div class="col-md-4">
      <p>Wensday</p>
-   </div>
-   <div class="col-md-4">
-     <p>Kwaku</p>
-   </div>
-   <div class="col-md-4">
-     <p>Akua</p>
-   </div>
- </div>
- <div class="row">
-  <div class="col-md-4">
-    <p>Thursday</p>
-  </div>
-  <div class="col-md-4">
-    <p>Yaw</p>
-  </div>
-  <div class="col-md-4">
-    <p>Yaa</p>
-  </div>
-</div>
-<div class="row">
- <div class="col-md-4">
-   <p>Friday</p>
- </div>
- <div class="col-md-4">
-   <p>Kofi</p>
- </div>
- <div class="col-md-4">
-   <p>Afua</p>
- </div>
-</div>
-<div class="row">
- <div class="col-md-4">
-   <p>Saturday</p>
- </div>
- <div class="col-md-4">
-   <p>Kwame</p>
- </div>
- <div class="col-md-4">
-   <p>Ama</p>
- </div>
-</div>
+    </div>
+    <div class="col-md-4">
+      <p>Kwaku</p>
+    </div>
+    <div class="col-md-4">
+       <p>Akua</p>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+      <p>Thursday</p>
+    </div>
+    <div class="col-md-4">
+      <p>Yaw</p>
+    </div>
+    <div class="col-md-4">
+      <p>Yaa</p>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+      <p>Friday</p>
+    </div>
+    <div class="col-md-4">
+       <p>Kofi</p>
+    </div>
+    <div class="col-md-4">
+       <p>Afua</p>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+       <p>Saturday</p>
+    </div>
+    <div class="col-md-4">
+       <p>Kwame</p>
+    </div>
+    <div class="col-md-4">
+       <p>Ama</p>
+    </div>
+    </div>
        <p> <strong>N/B</strong> <em>CC - is the century digits. For example 1989 has CC = 19
             YY - is the Year digits (1989 has YY = 89
             MM -  is the Month
             DD - is the Day of the month</em> </p>
+<<<<<<< HEAD
     <form name="myForm" onsubmit="event.preventDefault();calculateBirthday()">
     <label>Enter century digits </label>
     <input type="number" name="century" placeholder="e.g 19..">
@@ -119,5 +120,22 @@
   </form>
   </div>
   <script src="script.js"></script>
+=======
+            </div>
+    <form name="myForm" onsubmit="event.preventDefault();calculateBirthday()">
+      <label>Enter century </label>
+      <input name="century" type="number" class="birthday" placeholder="cc" required>
+      <label>Enter year of Birth</label>
+      <input  name="year" type="number" class="birthday" placeholder="yy" required>
+      <label>Enter Month of Birth</label>
+      <input  name="month"type="number" class="birthday" placeholder="mm" required><br>
+      <label>Enter Day of Birth</label>
+      <input  name="day"type="number" class="birthday" placeholder="dd" required>
+      Male<input name="gender"type="radio" class="gender" value="male" required>
+      Female<input name="gender"type="radio" class="gender" value="female" required>
+      <input type="submit" value="Submit">
+  </form>
+      <script src="scripts.js"></script>
+>>>>>>> master
   </body>
 </html>
